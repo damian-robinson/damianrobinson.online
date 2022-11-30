@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&family=Secular+One&display=swap');
+
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("dro_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size-adjust: none;
+  text-decoration: none;
+  text-size-adjust: none;
+  text-rendering: optimizeLegibility;
+  color: #ffffff;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: 'Secular One';
+}
+
+p {
+  margin: 1rem;
+  text-justify: newspaper;
+}
+
+/* Color Variables */
+:root {
+  --primary: #6FA8FD;
+}
+
+a {
+  color: #999999;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+#navbar {
+  display: flex;
+  width: 100vw;
+  height: auto;
+  padding: .5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#site-logo {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  margin: .5rem;
+}
+
+#social-link {
+  margin: .5rem;
+}
+
+#greeting {
+  margin: 3rem 1rem auto;
+  font-size: 3rem;
+}
+
+#greeting-sub {
+  margin: 1rem auto;
+}
+
+#greeting,
+#greeting-sub { text-align: center; }
+
+#intro {
+  max-width: 540px;
+  min-height: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#cta-section {
+  display: flex;
+  justify-content: center;
+}
+
+.cta {
+  width: 144px;
+  height: fit-content;
+  margin: 1rem;
+  padding: 1rem;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.cta:hover {
+  filter: brightness(120%);
+}
+
+#blog-cta {
+  background-color: #6FA8FD;
+}
+
+/* #portfolio-cta {
+  display: none;
+  background-color: #999999;
+}
+*/
+
+#copyright {
+  width: 100%;
+  height: fit-content;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
